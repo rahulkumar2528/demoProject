@@ -12,4 +12,8 @@ public class FirstController {
 	public String getHomePage() {
 		return "index";
 	}
+	@GetMapping("/save")
+	public String savePage() {
+		return "Register";
+	}
 }
